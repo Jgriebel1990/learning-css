@@ -5,6 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>learning-css</title>
+        <style>
+            p {
+                color: darksalmon
+            }
+            div p {
+                color: black;
+                font-size: 22px;
+            }
+        </style>
     </head>
     <body>
         <!-- inline styles -->
@@ -18,5 +27,20 @@
                     border-bottom-color: salmon;
                     border-right-color: aliceblue;
                     border-style: dotted;">gaudy border</h1>
+        <!-- internal styles -->
+        <!-- these re still page by page specific, but a little easier to maintain -->
+        <!-- also these are easier to extract later -->
+        <p>i love cheese!</p>
+        <div>
+            <p>i love pizza</p>
+            <p>i love taco</p>
+        </div>
+        <ul>
+            <li>gouda</li>
+            <li>muenster</li>
+            <li>gorgonzola</li>
+            <li>brie</li>
+            <li>pepper jack</li>
+        </ul>
     </body>
 </html>
