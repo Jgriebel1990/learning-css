@@ -13,6 +13,7 @@ ul {
     margin: 0;
     padding: 0;
     text-align: center;
+    overflow: hidden;
     
 }
 
@@ -33,9 +34,8 @@ a {
     text-align: center;
     padding: 0;
     width: 12.5rem;
-    color: bisque
-    
-
+    color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
 }
 
 .bd-bgc {
@@ -43,8 +43,11 @@ a {
 }
 
 li a:hover {
-    background-color: black
-    
+    background-color: black;
+}
+
+.active {
+    background-color: darkslategrey
 }
 
 
