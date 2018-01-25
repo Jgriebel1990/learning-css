@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+nav {
+    height: 0;
+    width: 100;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+li {
+    display: inline-block;
+    border: 1px solid black;
+    line-height: 5rem;
+    text-decoration: none;
+    padding: 0;
+    float: left;
+    
+
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0;
+    width: 12.5rem;
+    color: bisque
+    
+
+}
+
+.bd-bgc {
+    background-color: rgb(41, 41, 41);
+}
+
+li a:hover {
+    background-color: black
+    
+}
+
+
+
+
