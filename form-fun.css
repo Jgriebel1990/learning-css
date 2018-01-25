@@ -1,0 +1,44 @@
+.sign-up-form {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.form-input {
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 18px;
+    display: flex;
+    font-size: 27px;
+    font-weight: bold;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 10px 12px;
+
+
+}
+
+.join-header {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 15px;
+    text-align: left;
+    width: 392px;
+    
+}
+
+.form-input::placeholder {
+    color: rgb(78, 75, 250);
+}
+
+.button {
+    display: flex;
+    margin: 20px;
+    size: 20px;
+}
+
+
